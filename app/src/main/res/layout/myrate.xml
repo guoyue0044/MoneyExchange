@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map>
+    <float name = "dollar_rate" value = "0.14777379"/>
+    <float name = "euro rate" value = "0.1269696"/>
+    <float name = "won_rate" value = "167.70082"/>
+</map>

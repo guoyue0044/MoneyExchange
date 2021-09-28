@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <EditText
+        android:id="@+id/RMB"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="inputRMB"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/exchange"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="EXCHANGE"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/DOLLAR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dollar"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:onClick="myclick"/>
+
+    <Button
+        android:id="@+id/EURO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EURO"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:onClick="myclick"/>
+
+    <Button
+        android:id="@+id/WON"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WON"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:onClick="myclick"/>
+    <Button
+        android:id="@+id/CONFIG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONFIG"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:onClick="func"/>
+</LinearLayout>
